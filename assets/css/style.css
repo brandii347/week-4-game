@@ -1,0 +1,75 @@
+/* General Elements*/
+body{
+	background-image: url("https://i.pinimg.com/originals/de/fa/dc/defadc1400875bad29f74179352c606c.jpg")
+}
+div{
+	background-color: black;
+	margin: 10px;
+	width: 25%
+
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+li {
+	color: white;
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header{
+	color: blue;
+	background-image: url("https://oss.adm.ntu.edu.sg/ummi0001/wp-content/uploads/sites/329/2016/10/Animation-Style_4.jpg")
+}
+div.sabers{
+	background-color: black;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+	color: white;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+	color: white;
+}
+.sabers{
+	clear: both;
+}
+.saberImage{
+	height: 85px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#purple{
+	color: purple;
+}

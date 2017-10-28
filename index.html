@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lightsaber Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Lightsaber Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>Here's how you play:</h3>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+			<li>There are four lightsabers below.</li>
+			<br>
+
+			<ul>
+				<li id="blue">Blue</li>
+				<li id="green">Green</li>
+				<li id="red">Red</li>
+				<li id="purple">Purple</li>
+			</ul>
+			<br>
+
+			<li>By clicking on a lightsaber, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your score to the random number.</li>
+			<li>You lose the game if your score goes above the random number.</li>
+			<li>The value of each lightsaber is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each lightsaber.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="sabers">
+		<img src="assets/images/bluelightsaber.jpg" class=saberImage id="one" alt="Blue Light">
+		<img src="assets/images/greenlightsaber.jpg" class=saberImage id="two" alt="Green Light">
+		<img src="assets/images/redlightsaber2.png" class=saberImage id= "three" alt="Red Light">
+		<img src="assets/images/purplelightsaber.jpg" class=saberImage id= "four" alt="Purple Light">
+	</div>
+	<br>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
